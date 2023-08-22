@@ -14,6 +14,12 @@
 		982DC8862A936625006A6D1C /* Yatzee_Dice_GameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 982DC8852A936625006A6D1C /* Yatzee_Dice_GameTests.swift */; };
 		982DC8902A936625006A6D1C /* Yatzee_Dice_GameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 982DC88F2A936625006A6D1C /* Yatzee_Dice_GameUITests.swift */; };
 		982DC8922A936625006A6D1C /* Yatzee_Dice_GameUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 982DC8912A936625006A6D1C /* Yatzee_Dice_GameUITestsLaunchTests.swift */; };
+		982DC8A32A936687006A6D1C /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 982DC8A22A936687006A6D1C /* MenuView.swift */; };
+		982DC8A52A936691006A6D1C /* LeaderBoardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 982DC8A42A936691006A6D1C /* LeaderBoardView.swift */; };
+		982DC8A72A9366A8006A6D1C /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 982DC8A62A9366A8006A6D1C /* GameView.swift */; };
+		982DC8A92A9366BA006A6D1C /* GameSettingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 982DC8A82A9366BA006A6D1C /* GameSettingView.swift */; };
+		982DC8AB2A9366C4006A6D1C /* InstructionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 982DC8AA2A9366C4006A6D1C /* InstructionView.swift */; };
+		982DC8AF2A937114006A6D1C /* DiceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 982DC8AE2A937114006A6D1C /* DiceView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +50,12 @@
 		982DC88B2A936625006A6D1C /* Yatzee Dice GameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Yatzee Dice GameUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		982DC88F2A936625006A6D1C /* Yatzee_Dice_GameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Yatzee_Dice_GameUITests.swift; sourceTree = "<group>"; };
 		982DC8912A936625006A6D1C /* Yatzee_Dice_GameUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Yatzee_Dice_GameUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		982DC8A22A936687006A6D1C /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
+		982DC8A42A936691006A6D1C /* LeaderBoardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeaderBoardView.swift; sourceTree = "<group>"; };
+		982DC8A62A9366A8006A6D1C /* GameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
+		982DC8A82A9366BA006A6D1C /* GameSettingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameSettingView.swift; sourceTree = "<group>"; };
+		982DC8AA2A9366C4006A6D1C /* InstructionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstructionView.swift; sourceTree = "<group>"; };
+		982DC8AE2A937114006A6D1C /* DiceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiceView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,8 +106,10 @@
 		982DC8732A936623006A6D1C /* Yatzee Dice Game */ = {
 			isa = PBXGroup;
 			children = (
+				982DC8A02A936648006A6D1C /* Model */,
+				982DC89F2A936640006A6D1C /* Helpers */,
+				982DC89E2A936637006A6D1C /* Views */,
 				982DC8742A936623006A6D1C /* Yatzee_Dice_GameApp.swift */,
-				982DC8762A936623006A6D1C /* ContentView.swift */,
 				982DC8782A936625006A6D1C /* Assets.xcassets */,
 				982DC87A2A936625006A6D1C /* Preview Content */,
 			);
@@ -125,6 +139,50 @@
 				982DC8912A936625006A6D1C /* Yatzee_Dice_GameUITestsLaunchTests.swift */,
 			);
 			path = "Yatzee Dice GameUITests";
+			sourceTree = "<group>";
+		};
+		982DC89E2A936637006A6D1C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				982DC8AD2A937102006A6D1C /* Components */,
+				982DC8A12A93667A006A6D1C /* Pages */,
+				982DC8762A936623006A6D1C /* ContentView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		982DC89F2A936640006A6D1C /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		982DC8A02A936648006A6D1C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		982DC8A12A93667A006A6D1C /* Pages */ = {
+			isa = PBXGroup;
+			children = (
+				982DC8A22A936687006A6D1C /* MenuView.swift */,
+				982DC8A42A936691006A6D1C /* LeaderBoardView.swift */,
+				982DC8A62A9366A8006A6D1C /* GameView.swift */,
+				982DC8A82A9366BA006A6D1C /* GameSettingView.swift */,
+				982DC8AA2A9366C4006A6D1C /* InstructionView.swift */,
+			);
+			path = Pages;
+			sourceTree = "<group>";
+		};
+		982DC8AD2A937102006A6D1C /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				982DC8AE2A937114006A6D1C /* DiceView.swift */,
+			);
+			path = Components;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,8 +315,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				982DC8A52A936691006A6D1C /* LeaderBoardView.swift in Sources */,
+				982DC8AF2A937114006A6D1C /* DiceView.swift in Sources */,
 				982DC8772A936623006A6D1C /* ContentView.swift in Sources */,
+				982DC8A32A936687006A6D1C /* MenuView.swift in Sources */,
+				982DC8A92A9366BA006A6D1C /* GameSettingView.swift in Sources */,
+				982DC8AB2A9366C4006A6D1C /* InstructionView.swift in Sources */,
 				982DC8752A936623006A6D1C /* Yatzee_Dice_GameApp.swift in Sources */,
+				982DC8A72A9366A8006A6D1C /* GameView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -420,6 +484,7 @@
 				DEVELOPMENT_TEAM = 3983239Z4G;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Yahtzee Dice Game";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -449,6 +514,7 @@
 				DEVELOPMENT_TEAM = 3983239Z4G;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Yahtzee Dice Game";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
