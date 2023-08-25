@@ -9,7 +9,19 @@ import SwiftUI
 
 struct MenuView: View {
     var body: some View {
-        Text("Hello")
+        ZStack {
+            LinearGradient(gradient: Gradient(colors: [Color("gradient-color-purple"), Color("gradient-color-pink")]), startPoint: .top, endPoint: .bottom)
+            VStack {
+                NavigationLink {
+                    GameView()
+                } label: {
+                    Text("Play Game")
+                        .foregroundColor(.white)
+                }
+            }
+        }
+        .edgesIgnoringSafeArea(.all)
+        
     }
 }
 

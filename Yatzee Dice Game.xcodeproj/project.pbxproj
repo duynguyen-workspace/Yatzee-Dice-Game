@@ -20,6 +20,30 @@
 		982DC8A92A9366BA006A6D1C /* GameSettingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 982DC8A82A9366BA006A6D1C /* GameSettingView.swift */; };
 		982DC8AB2A9366C4006A6D1C /* InstructionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 982DC8AA2A9366C4006A6D1C /* InstructionView.swift */; };
 		982DC8AF2A937114006A6D1C /* DiceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 982DC8AE2A937114006A6D1C /* DiceView.swift */; };
+		982DC8B12A949480006A6D1C /* Modifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 982DC8B02A949480006A6D1C /* Modifiers.swift */; };
+		982DC8B32A94948C006A6D1C /* PlaySound.swift in Sources */ = {isa = PBXBuildFile; fileRef = 982DC8B22A94948C006A6D1C /* PlaySound.swift */; };
+		982DC8B52A9495CF006A6D1C /* AvatarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 982DC8B42A9495CF006A6D1C /* AvatarView.swift */; };
+		982DC8B72A94960C006A6D1C /* ScoreInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 982DC8B62A94960C006A6D1C /* ScoreInfoView.swift */; };
+		982DC8B92A9499D1006A6D1C /* ScoreBannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 982DC8B82A9499D1006A6D1C /* ScoreBannerView.swift */; };
+		982DC8C42A949D8D006A6D1C /* Play-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 982DC8C22A949D8C006A6D1C /* Play-Regular.ttf */; };
+		982DC8C52A949D8D006A6D1C /* Play-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 982DC8C32A949D8D006A6D1C /* Play-Bold.ttf */; };
+		982DC8C92A94A75C006A6D1C /* ReelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 982DC8C82A94A75C006A6D1C /* ReelView.swift */; };
+		982DC8CB2A94AB3C006A6D1C /* RollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 982DC8CA2A94AB3C006A6D1C /* RollView.swift */; };
+		982DC8CD2A94C949006A6D1C /* PointsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 982DC8CC2A94C949006A6D1C /* PointsView.swift */; };
+		982DC8CF2A94CA4C006A6D1C /* PointsOptionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 982DC8CE2A94CA4C006A6D1C /* PointsOptionView.swift */; };
+		982DC8D12A95ABBA006A6D1C /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 982DC8D02A95ABBA006A6D1C /* Utilities.swift */; };
+		982DC8D42A985A3A006A6D1C /* GameOverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 982DC8D32A985A3A006A6D1C /* GameOverView.swift */; };
+		982DC8D62A985A44006A6D1C /* GameWinView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 982DC8D52A985A44006A6D1C /* GameWinView.swift */; };
+		982DC8DA2A985F63006A6D1C /* AnimatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 982DC8D92A985F63006A6D1C /* AnimatingView.swift */; };
+		982DC8DC2A98612A006A6D1C /* bonus.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 982DC8DB2A98612A006A6D1C /* bonus.mp3 */; };
+		982DC8E22A98614B006A6D1C /* highscore.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 982DC8DD2A98614A006A6D1C /* highscore.mp3 */; };
+		982DC8E32A98614B006A6D1C /* background-music.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 982DC8DE2A98614A006A6D1C /* background-music.mp3 */; };
+		982DC8E42A98614B006A6D1C /* select.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 982DC8DF2A98614A006A6D1C /* select.mp3 */; };
+		982DC8E52A98614B006A6D1C /* gameover.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 982DC8E02A98614A006A6D1C /* gameover.mp3 */; };
+		982DC8E62A98614B006A6D1C /* play.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 982DC8E12A98614B006A6D1C /* play.mp3 */; };
+		982DC8EA2A986545006A6D1C /* winning.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 982DC8E92A986545006A6D1C /* winning.mp3 */; };
+		982DC8EC2A9866DF006A6D1C /* dice-roll.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 982DC8EB2A9866DF006A6D1C /* dice-roll.mp3 */; };
+		982DC8EE2A9877F4006A6D1C /* lock.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 982DC8ED2A9877F4006A6D1C /* lock.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +80,30 @@
 		982DC8A82A9366BA006A6D1C /* GameSettingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameSettingView.swift; sourceTree = "<group>"; };
 		982DC8AA2A9366C4006A6D1C /* InstructionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstructionView.swift; sourceTree = "<group>"; };
 		982DC8AE2A937114006A6D1C /* DiceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiceView.swift; sourceTree = "<group>"; };
+		982DC8B02A949480006A6D1C /* Modifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Modifiers.swift; sourceTree = "<group>"; };
+		982DC8B22A94948C006A6D1C /* PlaySound.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaySound.swift; sourceTree = "<group>"; };
+		982DC8B42A9495CF006A6D1C /* AvatarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvatarView.swift; sourceTree = "<group>"; };
+		982DC8B62A94960C006A6D1C /* ScoreInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreInfoView.swift; sourceTree = "<group>"; };
+		982DC8B82A9499D1006A6D1C /* ScoreBannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreBannerView.swift; sourceTree = "<group>"; };
+		982DC8C22A949D8C006A6D1C /* Play-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Play-Regular.ttf"; sourceTree = "<group>"; };
+		982DC8C32A949D8D006A6D1C /* Play-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Play-Bold.ttf"; sourceTree = "<group>"; };
+		982DC8C82A94A75C006A6D1C /* ReelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReelView.swift; sourceTree = "<group>"; };
+		982DC8CA2A94AB3C006A6D1C /* RollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RollView.swift; sourceTree = "<group>"; };
+		982DC8CC2A94C949006A6D1C /* PointsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PointsView.swift; sourceTree = "<group>"; };
+		982DC8CE2A94CA4C006A6D1C /* PointsOptionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PointsOptionView.swift; sourceTree = "<group>"; };
+		982DC8D02A95ABBA006A6D1C /* Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		982DC8D32A985A3A006A6D1C /* GameOverView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameOverView.swift; sourceTree = "<group>"; };
+		982DC8D52A985A44006A6D1C /* GameWinView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameWinView.swift; sourceTree = "<group>"; };
+		982DC8D92A985F63006A6D1C /* AnimatingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatingView.swift; sourceTree = "<group>"; };
+		982DC8DB2A98612A006A6D1C /* bonus.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = bonus.mp3; sourceTree = "<group>"; };
+		982DC8DD2A98614A006A6D1C /* highscore.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = highscore.mp3; sourceTree = "<group>"; };
+		982DC8DE2A98614A006A6D1C /* background-music.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "background-music.mp3"; sourceTree = "<group>"; };
+		982DC8DF2A98614A006A6D1C /* select.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = select.mp3; sourceTree = "<group>"; };
+		982DC8E02A98614A006A6D1C /* gameover.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = gameover.mp3; sourceTree = "<group>"; };
+		982DC8E12A98614B006A6D1C /* play.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = play.mp3; sourceTree = "<group>"; };
+		982DC8E92A986545006A6D1C /* winning.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = winning.mp3; sourceTree = "<group>"; };
+		982DC8EB2A9866DF006A6D1C /* dice-roll.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "dice-roll.mp3"; sourceTree = "<group>"; };
+		982DC8ED2A9877F4006A6D1C /* lock.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = lock.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +154,8 @@
 		982DC8732A936623006A6D1C /* Yatzee Dice Game */ = {
 			isa = PBXGroup;
 			children = (
+				982DC8D72A985D7B006A6D1C /* Sounds */,
+				982DC8C02A949C69006A6D1C /* Fonts */,
 				982DC8A02A936648006A6D1C /* Model */,
 				982DC89F2A936640006A6D1C /* Helpers */,
 				982DC89E2A936637006A6D1C /* Views */,
@@ -154,6 +204,9 @@
 		982DC89F2A936640006A6D1C /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
+				982DC8B02A949480006A6D1C /* Modifiers.swift */,
+				982DC8B22A94948C006A6D1C /* PlaySound.swift */,
+				982DC8D02A95ABBA006A6D1C /* Utilities.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -168,6 +221,7 @@
 		982DC8A12A93667A006A6D1C /* Pages */ = {
 			isa = PBXGroup;
 			children = (
+				982DC8D82A985F53006A6D1C /* Welcome */,
 				982DC8A22A936687006A6D1C /* MenuView.swift */,
 				982DC8A42A936691006A6D1C /* LeaderBoardView.swift */,
 				982DC8A62A9366A8006A6D1C /* GameView.swift */,
@@ -181,8 +235,50 @@
 			isa = PBXGroup;
 			children = (
 				982DC8AE2A937114006A6D1C /* DiceView.swift */,
+				982DC8B42A9495CF006A6D1C /* AvatarView.swift */,
+				982DC8B62A94960C006A6D1C /* ScoreInfoView.swift */,
+				982DC8B82A9499D1006A6D1C /* ScoreBannerView.swift */,
+				982DC8C82A94A75C006A6D1C /* ReelView.swift */,
+				982DC8CA2A94AB3C006A6D1C /* RollView.swift */,
+				982DC8CC2A94C949006A6D1C /* PointsView.swift */,
+				982DC8CE2A94CA4C006A6D1C /* PointsOptionView.swift */,
+				982DC8D32A985A3A006A6D1C /* GameOverView.swift */,
+				982DC8D52A985A44006A6D1C /* GameWinView.swift */,
 			);
 			path = Components;
+			sourceTree = "<group>";
+		};
+		982DC8C02A949C69006A6D1C /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				982DC8C32A949D8D006A6D1C /* Play-Bold.ttf */,
+				982DC8C22A949D8C006A6D1C /* Play-Regular.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		982DC8D72A985D7B006A6D1C /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				982DC8ED2A9877F4006A6D1C /* lock.mp3 */,
+				982DC8EB2A9866DF006A6D1C /* dice-roll.mp3 */,
+				982DC8E92A986545006A6D1C /* winning.mp3 */,
+				982DC8DE2A98614A006A6D1C /* background-music.mp3 */,
+				982DC8E02A98614A006A6D1C /* gameover.mp3 */,
+				982DC8DD2A98614A006A6D1C /* highscore.mp3 */,
+				982DC8E12A98614B006A6D1C /* play.mp3 */,
+				982DC8DF2A98614A006A6D1C /* select.mp3 */,
+				982DC8DB2A98612A006A6D1C /* bonus.mp3 */,
+			);
+			path = Sounds;
+			sourceTree = "<group>";
+		};
+		982DC8D82A985F53006A6D1C /* Welcome */ = {
+			isa = PBXGroup;
+			children = (
+				982DC8D92A985F63006A6D1C /* AnimatingView.swift */,
+			);
+			path = Welcome;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -289,8 +385,19 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				982DC8E42A98614B006A6D1C /* select.mp3 in Resources */,
+				982DC8EA2A986545006A6D1C /* winning.mp3 in Resources */,
 				982DC87C2A936625006A6D1C /* Preview Assets.xcassets in Resources */,
+				982DC8C52A949D8D006A6D1C /* Play-Bold.ttf in Resources */,
+				982DC8C42A949D8D006A6D1C /* Play-Regular.ttf in Resources */,
+				982DC8E52A98614B006A6D1C /* gameover.mp3 in Resources */,
 				982DC8792A936625006A6D1C /* Assets.xcassets in Resources */,
+				982DC8E62A98614B006A6D1C /* play.mp3 in Resources */,
+				982DC8DC2A98612A006A6D1C /* bonus.mp3 in Resources */,
+				982DC8EE2A9877F4006A6D1C /* lock.mp3 in Resources */,
+				982DC8E32A98614B006A6D1C /* background-music.mp3 in Resources */,
+				982DC8EC2A9866DF006A6D1C /* dice-roll.mp3 in Resources */,
+				982DC8E22A98614B006A6D1C /* highscore.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -317,11 +424,24 @@
 			files = (
 				982DC8A52A936691006A6D1C /* LeaderBoardView.swift in Sources */,
 				982DC8AF2A937114006A6D1C /* DiceView.swift in Sources */,
+				982DC8CF2A94CA4C006A6D1C /* PointsOptionView.swift in Sources */,
+				982DC8D62A985A44006A6D1C /* GameWinView.swift in Sources */,
+				982DC8CB2A94AB3C006A6D1C /* RollView.swift in Sources */,
+				982DC8CD2A94C949006A6D1C /* PointsView.swift in Sources */,
 				982DC8772A936623006A6D1C /* ContentView.swift in Sources */,
+				982DC8D12A95ABBA006A6D1C /* Utilities.swift in Sources */,
 				982DC8A32A936687006A6D1C /* MenuView.swift in Sources */,
+				982DC8C92A94A75C006A6D1C /* ReelView.swift in Sources */,
+				982DC8B52A9495CF006A6D1C /* AvatarView.swift in Sources */,
+				982DC8D42A985A3A006A6D1C /* GameOverView.swift in Sources */,
+				982DC8B72A94960C006A6D1C /* ScoreInfoView.swift in Sources */,
 				982DC8A92A9366BA006A6D1C /* GameSettingView.swift in Sources */,
+				982DC8B32A94948C006A6D1C /* PlaySound.swift in Sources */,
+				982DC8DA2A985F63006A6D1C /* AnimatingView.swift in Sources */,
 				982DC8AB2A9366C4006A6D1C /* InstructionView.swift in Sources */,
 				982DC8752A936623006A6D1C /* Yatzee_Dice_GameApp.swift in Sources */,
+				982DC8B12A949480006A6D1C /* Modifiers.swift in Sources */,
+				982DC8B92A9499D1006A6D1C /* ScoreBannerView.swift in Sources */,
 				982DC8A72A9366A8006A6D1C /* GameView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -484,7 +604,7 @@
 				DEVELOPMENT_TEAM = 3983239Z4G;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_CFBundleDisplayName = "Yahtzee Dice Game";
+				INFOPLIST_FILE = "Yatzee-Dice-Game-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -514,7 +634,7 @@
 				DEVELOPMENT_TEAM = 3983239Z4G;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_CFBundleDisplayName = "Yahtzee Dice Game";
+				INFOPLIST_FILE = "Yatzee-Dice-Game-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

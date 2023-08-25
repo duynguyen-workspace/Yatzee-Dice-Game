@@ -9,16 +9,26 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        TabView {
-            MenuView()
-                .tabItem {
-                    Label("Menu", systemImage: "list.dash")
-                }
-            LeaderBoardView()
-                .tabItem {
-                    Label("LeaderBoard", systemImage: "list.dash")
-                }
-                
+        NavigationStack {
+            TabView {
+                MenuView()
+                    .tabItem {
+                        Label("Home", systemImage: "house.fill")
+                    }
+                GameSettingView()
+                    .tabItem {
+                        Label("Game Settings", systemImage: "list.dash")
+                    }
+                LeaderBoardView()
+                    .tabItem {
+                        Label("LeaderBoard", systemImage: "rosette")
+                    }
+                InstructionView()
+                    .tabItem {
+                        Label("How To Play", systemImage: "questionmark.circle.fill")
+                    }
+                    
+            }
         }
     }
 }

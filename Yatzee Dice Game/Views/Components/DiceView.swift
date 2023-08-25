@@ -13,7 +13,11 @@ struct DiceView: View {
         image
             .resizable()
             .scaledToFit()
-            .frame(width: 100)
+            .overlay(
+                RoundedRectangle(cornerRadius: 10)
+                    .stroke(Color("secondary-color"),lineWidth: 3)
+            )
+            .frame(height: 50)
     }
 }
 

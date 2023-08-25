@@ -11,7 +11,7 @@ import SwiftUI
 struct Yatzee_Dice_GameApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            GameView()
         }
     }
 }
