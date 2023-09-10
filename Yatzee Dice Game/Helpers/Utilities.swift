@@ -1,20 +1,26 @@
-//
-//  Utilities.swift
-//  Yatzee Dice Game
-//
-//  Created by Nguyễn Anh Duy on 23/08/2023.
-//
+/*
+  Utilities.swift
+  Yatzee Dice Game
+ 
+  RMIT University Vietnam
+  Course: COSC2659 iOS Development
+  Semester: 2023B
+  Assessment: Assignment 2
+  Author: Nguyen Anh Duy
+  ID: 3878141
+  Created date: 23/08/2023
+  Last modified: 07/09/2023
+*/
 
 import Foundation
 
-func checkConsecutiveNumbers(arr: [Int]) -> Bool {
-    // Sort the array
-    var sortedArr = arr.map{$0}
-    sortedArr.sort()
-    
+/**
+  Check if the array elements is in a sequence
+ */
+func isSequence(arr: [Int]) -> Bool {
     // Checking the adjacent elements
-    for i in 1...sortedArr.count - 1 {
-        if (sortedArr[i] != sortedArr[i-1]+1) {
+    for i in 1...arr.count - 1 {
+        if (arr[i] != arr[i-1]+1) {
             return false
         }
     }
@@ -22,24 +28,17 @@ func checkConsecutiveNumbers(arr: [Int]) -> Bool {
     return true
 }
 
-func checkConsecutiveNumbers(arr: [Int], n: Int) -> Bool {
-    //
-    let missedNumberAllowed = arr.count - n
-    var errorCount = 0
-    
-    // Sort the array
-    var sortedArr = arr.map{$0}
-    sortedArr.sort()
-    
-    // Checking the adjacent elements
-    for i in 1...sortedArr.count - 1 {
-        if (sortedArr[i] != sortedArr[i-1]+1) {
-            errorCount += 1
+/**
+ Calculate the score for dices with the same value (any dice in the reel)
+ */
+func calcSameDices(reels: [Reel], value: Int) -> Int {
+    var result = 0
+    for reel in reels {
+        if reel.value == value {
+            result += value
         }
     }
-    
-    if errorCount > missedNumberAllowed {
-        return false
-    }
-    return true
+    return result
 }
+
+

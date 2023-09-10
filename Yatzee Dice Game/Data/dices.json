@@ -1,0 +1,93 @@
+[
+    {
+        "id": 1,
+        "name": "Ones",
+        "diceDescription": "Any number of ones",
+        "scoreDescription": "Sum of all ones",
+        "imageName": "dice-face-1"
+    },
+    {
+        "id": 2,
+        "name": "Twos",
+        "diceDescription": "Any number of twos",
+        "scoreDescription": "Sum of all twos",
+        "imageName": "dice-face-2"
+    },
+    {
+        "id": 3,
+        "name": "Threes",
+        "diceDescription": "Any number of threes",
+        "scoreDescription": "Sum of all threes",
+        "imageName": "dice-face-1"
+    },
+    {
+        "id": 4,
+        "name": "Fours",
+        "diceDescription": "Any number of fours",
+        "scoreDescription": "Sum of all fours",
+        "imageName": "dice-face-4"
+    },
+    {
+        "id": 5,
+        "name": "Fours",
+        "diceDescription": "Any number of fours",
+        "scoreDescription": "Sum of all fours",
+        "imageName": "dice-face-4"
+    },
+    {
+        "id": 6,
+        "name": "Fives",
+        "diceDescription": "Any number of fives",
+        "scoreDescription": "Sum of all fives",
+        "imageName": "dice-face-5"
+    },
+    {
+        "id": 7,
+        "name": "Sixes",
+        "diceDescription": "Any number of sixes",
+        "scoreDescription": "Sum of all sixes",
+        "imageName": "dice-face-6"
+    },
+    {
+        "id": 8,
+        "name": "Three of a Kind",
+        "diceDescription": "At least three of the same kinds",
+        "scoreDescription": "Only the three dices will count towards the scores",
+        "imageName": "dice-face-3x"
+    },
+    {
+        "id": 9,
+        "name": "Two Pairs",
+        "diceDescription": "Two different pairs of dice",
+        "scoreDescription": "Only the two pairs will count towards the score",
+        "imageName": "dice-face-pairs"
+    },
+    {
+        "id": 10,
+        "name": "Small Straight",
+        "diceDescription": "Sequence of four dices",
+        "scoreDescription": "30 points",
+        "imageName": "dice-face-small"
+    },
+    {
+        "id": 11,
+        "name": "Large Straight",
+        "diceDescription": "Any number of fours",
+        "scoreDescription": "40 points",
+        "imageName": "dice-face-large"
+    },
+    {
+        "id": 12,
+        "name": "Yahtzee",
+        "diceDescription": "Five of the same dice",
+        "scoreDescription": "50 points",
+        "imageName": "dice-face-5x"
+    },
+    {
+        "id": 13,
+        "name": "Chance",
+        "diceDescription": "Any dice",
+        "scoreDescription": "Sum of all five dice",
+        "imageName": "dice-face-?"
+    }
+]

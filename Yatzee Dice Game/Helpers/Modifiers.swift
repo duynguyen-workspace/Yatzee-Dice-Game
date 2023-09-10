@@ -1,9 +1,16 @@
-//
-//  Modifiers.swift
-//  Yatzee Dice Game
-//
-//  Created by Nguyễn Anh Duy on 22/08/2023.
-//
+/*
+  Modifiers.swift
+  Yatzee Dice Game
+ 
+  RMIT University Vietnam
+  Course: COSC2659 iOS Development
+  Semester: 2023B
+  Assessment: Assignment 2
+  Author: Nguyen Anh Duy
+  ID: 3878141
+  Created date: 22/08/2023
+  Last modified: 07/09/2023
+*/
 
 import SwiftUI
 
@@ -52,6 +59,7 @@ struct EmptyModifier: ViewModifier {
             .offset(y: 0)
     }
 }
+
 
     
 
